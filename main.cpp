@@ -7,8 +7,8 @@
 
 int main()
 {
-
-	std::string res = request();
+	std::string town = "moskva";
+	std::string res = request(town);
 	std::vector<std::string> ans = scrape(res);
 	for (size_t i = 0; i < ans.size(); i++){
 		std::cout<<ans[i]<<std::endl;

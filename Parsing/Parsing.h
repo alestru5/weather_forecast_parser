@@ -10,7 +10,7 @@
 #include <gumbo.h>
 #include <vector>
 #include "algorithm"
-std::string request();
+std::string request(const std::string &word);
 std::vector<std::string> scrape(std::string markup);
 void find_definitions(GumboNode *node);
 std::string extract_text(GumboNode *node);

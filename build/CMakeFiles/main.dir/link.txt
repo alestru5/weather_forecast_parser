@@ -1,1 +1,0 @@
-/usr/bin/c++  -lgumbo -std=c++20 -Wall -Wextra CMakeFiles/main.dir/main.cpp.o -o main  DailyForecast/libDailyForecast.a WeatherForecast/libWeatherForecast.a Parsing/libParsing.a /usr/lib/x86_64-linux-gnu/libcurl.so -lgumbo 

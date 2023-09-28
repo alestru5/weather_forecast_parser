@@ -1,0 +1,1 @@
+add_library(DailyForecast DailyForecast.h DailyForecast.cpp)
